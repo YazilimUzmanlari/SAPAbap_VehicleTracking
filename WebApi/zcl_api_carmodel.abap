@@ -23,7 +23,7 @@ CLASS ZCL_API_CARMODEL IMPLEMENTATION.
   method IF_HTTP_EXTENSION~HANDLE_REQUEST.
     Data:   lv_verb     type string,
           lv_carmodel   type zweb_st_carmodel,
-          cl_carmodel   type ref to zweb_cl_carmodel,
+          cl_carmodel   type ref to zcl_web_carmodel,
           lv_result     type zweb_st_result,
           lv_search     type zweb_st_search,
           lv_json       type /ui2/cl_json=>json.
